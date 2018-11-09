@@ -20,7 +20,7 @@ public class TestNumberService {
 //		fonction d'assertion de junit permettant de valider ou non un test
 		assertEquals(biggest1, 10);
 
-		int[] listeEntiers2 = new int[] { 1, 2, 3, 4 };
+		int[] listeEntiers2 = new int[] { 1, 2, 3, 4, 5 };
 		int biggest2 = numberService.biggestNumber(listeEntiers2);
 //		fonction d'assertion de junit permettant de valider ou non un test
 		assertEquals(biggest2, 4);
@@ -52,7 +52,7 @@ public class TestNumberService {
 	// test si le plus grand entier d'une liste est négatif
 	public void testBiggestNumberWithNegativeValues() {
 		// crée une liste d'entiers négatif
-		int[] listeEntiers = new int[] { -1, -7, -8, -9 };
+		int[] listeEntiers = new int[] { -1, -7, -8, -9, 10 };
 		NumberService numberService = new NumberService();
 
 		int negative1 = numberService.biggestNumber(listeEntiers);
