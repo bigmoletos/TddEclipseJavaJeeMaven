@@ -6,10 +6,12 @@ package fr.demandeatonton.tdd.services;
 import fr.demandeatonton.tdd.exceptions.InvalidListException;
 
 /**
- * @author fd
+ * @author franck desmedt
  *
  */
+
 public class NumberService {
+
 	public int biggestNumber(int[] listeEntiers) {
 //		on gere une throw exception custom dans au cas où la liste est nulle
 		if (listeEntiers == null)

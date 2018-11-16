@@ -42,6 +42,9 @@ public class TestCalculateTime {
 //		fonction d'assertion de junit permettant de valider ou non un test
 //		assertEquals(biggest1, 10);
 
+	/**
+	 * 
+	 */
 	@Test
 	// test si le chiffre est négatif
 
@@ -49,6 +52,9 @@ public class TestCalculateTime {
 
 	}
 
+	/**
+	 * 
+	 */
 	@Test
 	// test si le chiffre est null
 
